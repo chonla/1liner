@@ -17,3 +17,9 @@ curl https://raw.githubusercontent.com/chonla/1liner/master/provision-node-lates
 ```
 curl https://raw.githubusercontent.com/chonla/1liner/master/provision-node-lts.sh | bash
 ```
+
+## Provision Yarn on Ubuntu
+
+```
+curl https://raw.githubusercontent.com/chonla/1liner/master/provision-yarn.sh | bash
+```
