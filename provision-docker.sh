@@ -28,5 +28,8 @@ sudo usermod -aG docker ${USER}
 
 # Test
 
+echo "Docker version"
 docker version
+
+echo "Docker Compose version"
 docker-compose version

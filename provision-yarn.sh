@@ -8,3 +8,8 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 # Install yarn
 
 sudo apt update && sudo apt install yarn
+
+# Test
+
+echo "Yarn version:"
+yarn --version

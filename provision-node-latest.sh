@@ -9,5 +9,8 @@ sudo apt-get install nodejs
 
 # Test
 
+echo "NodeJS version:"
 node -v
+
+echo "NPM version:"
 npm -v
