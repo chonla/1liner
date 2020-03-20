@@ -23,3 +23,9 @@ curl https://raw.githubusercontent.com/chonla/1liner/master/provision-node-lts.s
 ```
 curl https://raw.githubusercontent.com/chonla/1liner/master/provision-yarn.sh | bash
 ```
+
+## Provision Jenkins (Master/Slave) on Ubuntu
+
+```
+curl https://raw.githubusercontent.com/chonla/1liner/master/provision-jenkins.sh | bash
+```
