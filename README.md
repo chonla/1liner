@@ -28,4 +28,10 @@ curl https://raw.githubusercontent.com/chonla/1liner/master/provision-yarn.sh | 
 
 ```
 curl https://raw.githubusercontent.com/chonla/1liner/master/provision-jenkins.sh | bash
+
+```
+## Provision Python3 with pip
+
+```
+curl https://raw.githubusercontent.com/chonla/1liner/master/provision-python3-w-pip.sh
 ```
