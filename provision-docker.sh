@@ -18,7 +18,7 @@ sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 
 # Docker Compose
 
-sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
 # Set permission
@@ -33,3 +33,5 @@ docker version
 
 echo "Docker Compose version"
 docker-compose version
+
+echo "You may need re-login to make permissions applied to user ${USER}."
